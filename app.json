@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "CookBook",
+    "slug": "CookBook",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon2.png",
+    "splash": {
+      "image": "./assets/adaptive-icon2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FEFEDF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FEFEDF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
